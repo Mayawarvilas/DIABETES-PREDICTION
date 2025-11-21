@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="app.js"></script>
+    <title>Diabetes Prediction</title>
+</head>
+<body>
+    
+    <h2 id="dia">DIABETES PREDICTION</h2>
+    <div id="inputs_div">
+        <div class="inputs">
+            <label for="gender">Gender [ Male=1 , Female=0 ]</label>
+            <br>
+            <input type="number" id="gender" placeholder="Enter Gender" name="uigender" >
+        </div>
+        <div class="inputs">
+            <label for="age">Age</label>
+            <br>
+            <input type="number" id="age" placeholder="Enter Age" name="uiage">
+        </div>
+        <div class="inputs">
+            <label for="hypertension">HyperTension [ Yes=1 , No=0 ]</label>
+            <br>
+            <input type="number" id="hypertension" placeholder="Enter Hypertension" name="uihypertension">
+        </div>
+        <div class="inputs">
+            <label for="heart_disease">Heart Disease [ Yes=1 , No=0 ]</label>
+            <br>
+            <input type="number" id="heart_disease" placeholder="Enter Heart Disease" name="uiheart_disease">
+        </div>
+        <div class="inputs">
+            <label for="smoking_history">Smoking_history</label>
+            <p >[ Never=0 , No Info=-1 , Current=1 , Former=2 , Ever=3 , Not_Current=2]</p>
+            <input type="number" id="smoking_history" placeholder="Enter Smoking History" name="uismoking_history">
+        </div>  
+        <div class="inputs">
+            <label for="bmi">BMI</label>
+            <br>
+            <input type="number" id="bmi" placeholder="Enter BMI" name="uibmi">
+        </div>
+        <div class="inputs">
+            <label for="HbA1c_level">Hemoglobin_A1c_Level</label>
+            <br>
+            <input type="number" id="HbA1c_level" placeholder="Enter HbA1c_level" name="uiHbA1c_level">
+        </div>
+        <div class="inputs">
+            <label for="blood_glucose_level">Blood_glucose_level</label>
+            <br>
+            <input type="number" id="blood_glucose_level" placeholder="Enter Blood_glucose_level" name="uiblood_glucose_level">
+        </div>
+  
+    </div>
+        <br>
+        <button type="button" onclick="onClickedPredict()">Predict</button>
+        <div id='uipredict' class="result" ><h3></h3></div>
+ 
+</body>
+</html>

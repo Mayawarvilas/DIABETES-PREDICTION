@@ -1,0 +1,71 @@
+body{
+    background-image: url('dia_img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#dia{
+    color: white;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 30rem;
+    margin-top: 5rem;
+    
+}
+
+.inputs{
+    color: rgb(235, 228, 228);
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 90px;
+    
+}
+p{
+    font-size: 18px;
+    margin-top: 2px;
+}
+input{
+    color: black;
+    width: 15rem;
+    height: 1.5rem;  
+    border-radius: 5px;
+    padding: 2.5px;
+    border-color: black;
+    margin-top: 5px;
+    border: 0px;
+    overflow: hidden;
+    background-color: beige;
+    
+}
+
+.inputs label{
+    font-weight: bold;
+    font-family:  'Times New Roman';
+}   
+#smoking_history{
+    margin-top: 0px;
+}
+
+button{
+    font-size: larger;
+    height: 3rem;
+    width: 6rem;
+    border-radius: 5px;
+    border-width: 0px;
+    background-color: bisque;
+    margin-left: 33rem;
+}
+
+.result{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background: #dcd686;
+        color: black;
+		width: 30rem;
+		border-radius: 10px;
+		margin-left: 23rem;
+        margin-bottom: 60px;
+		font-size: 25px;
+		height: 50px;
+		text-align: center;
+}
+
