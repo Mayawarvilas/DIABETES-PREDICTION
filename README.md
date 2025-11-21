@@ -10,3 +10,12 @@ For Application:
 
 Html / css / Js / python Flask
 
+How to run :
+
+step 1 : Open this repo in your code editior and import all the extensions
+
+step 2 : First you need to run the ./server server.py file.
+
+step 3 : After step 2 run the ./client app.html file
+
+step 4 : You have to enter the requriments and you will get the estimated price
